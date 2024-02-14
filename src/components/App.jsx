@@ -79,7 +79,7 @@ class App extends Component {
   };
 
   render() {
-    const { query, images, totalHits, isLoading, selectedImage } = this.state;
+    const { images, totalHits, isLoading, selectedImage } = this.state;
 
     return (
       <div className="App">
