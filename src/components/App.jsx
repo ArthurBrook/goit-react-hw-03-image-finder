@@ -90,8 +90,8 @@ class App extends Component {
         {isLoading && <Loader />}
 
         {images.length > 0 && images.length < totalHits && !isLoading && (
-          <Button onLoadMore={this.handleLoadMore} />
-        )}
+  <Button onLoadMore={this.handleLoadMore} />
+)}
 
         {selectedImage && <Modal largeImageURL={selectedImage} onClose={this.handleCloseModal} />}
       </div>
